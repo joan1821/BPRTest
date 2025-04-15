@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifact for deployment
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './'  # Adjust if you have a "dist" or "build" folder after building
+          path: '../'  # Adjust if you have a "dist" or "build" folder after building
 
   deploy:
     needs: build
